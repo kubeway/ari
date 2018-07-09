@@ -1,0 +1,2 @@
+use dep:
+docker run --rm -it -w /go/src/github.com/operator-framework/operator-sdk -v `pwd`:"/go/src/github.com/operator-framework/operator-sdk" registry.cn-beijing.aliyuncs.com/kubeway/dep  ensure -v
